@@ -1,0 +1,16 @@
+{
+  "documentationUrl": "https://docsurl.com",
+  "connectionSpecification": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Rickymorty Spec",
+    "type": "object",
+    "required": ["start_page"],
+    "additionalProperties": false,
+    "properties": {
+      "start_page": {
+        "type": "number",
+        "description": "from which page to start collecting data"
+      }
+    }
+  }
+}
